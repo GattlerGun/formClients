@@ -65,7 +65,6 @@ export default {
             }
         },
         setDifficult(diff) {
-            console.log(diff);
             switch (diff) {
                 case "hard":
                     this.delay = 400;
@@ -92,7 +91,6 @@ export default {
         comparate() {
             if (this.response[this.index] === this.simon[this.index]) {
                 this.index++;
-                console.log(this.index === this.round);
                 if (this.index === this.round) {
                     this.response = [];
                     // this.simon = [];
