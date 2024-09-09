@@ -1,5 +1,9 @@
 # formClients
 
+Yoy can forward link: https://gattlergun.github.io/formClients/
+
+or clone this project and
+
 ## Project setup
 ```
 npm install
